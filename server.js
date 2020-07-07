@@ -7,12 +7,11 @@ const PORT = process.env.PORT || 8000;
 console.log("PORT", process.env.PORT);
 
 app.get("/", (req, res) => {
-  res.send("Beanstalk Server is responding");
+  res.send("Beanstalk Server is responding and CI/CD integrated !!!");
 });
 
 app.listen(PORT, () => {
   console.log(`Beanstalk Server is running on ${PORT}`);
-  console.log("CI/CD integrated !!!");
 });
 
 // AWSCodePipelineServiceRole-ap-south-1-beanstalk-try
