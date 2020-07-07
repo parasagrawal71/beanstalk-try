@@ -12,4 +12,7 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Beanstalk Server is running on ${PORT}`);
+  console.log("CI/CD integrated !!!");
 });
+
+// AWSCodePipelineServiceRole-ap-south-1-beanstalk-try
